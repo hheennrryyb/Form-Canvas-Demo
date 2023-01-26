@@ -1,0 +1,45 @@
+@font-face {
+  font-family: GintoNord;
+  src: url("./ABCGintoNord-Black-Trial.otf") format("opentype");
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 500vh;
+  background: #000;
+}
+
+canvas {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  /* max-height: 100vh; */
+}
+
+.heroTitle{
+  z-index: 99;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100vw;
+  max-height: 100vh;
+
+  color: white;
+  font-size: 5rem;
+  font-family: GintoNord;
+  text-transform: capitalize;
+  width: min-content;
+  text-align: center;
+  line-height: 4.5rem;
+
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #E6FF00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
